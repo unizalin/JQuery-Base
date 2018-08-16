@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS JQCh9</title>
+    <link rel="shortcut icon" href="images/logo-icon.png">
+    <meta name="descrit=ption" content="CSS JQ 練習">
+    <meta name="keyword" content="hexscool,html,css">
+    <meta property="og:title" content="hexschool">
+    <meta property="og:description" content="帶你學到會的線上課程">
+    <meta property="og:url" content="https://www.facebook.com/hexschool/">
+    <meta property="og:image" content="images/logo fb.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="css/themes/default/default.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <ul>
+                <li><img src="images/fb-icon.jpg" alt=""><a class="fb" href="#">粉絲團</a></li>
+                <li><img src="images/twitter-icon.png" alt=""><a class="twitter" href="#"><span>追隨我們</span></a></li>
+            </ul>
+        </div>
+        <div class="top">
+            <h1> <a href="#">Hex School</a></h1>
+            <ul class="dropmenu">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#" class="dropmenu-open">產品介紹</a>
+                    <ul class="dropmenu-opendown"><li><a href="#">Html</a></li>
+                    <li><a href="#">RWD</a></li>
+                    <li><a href="#">jQuery</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropmenu-open">聯絡我們</a>
+                    <ul class="dropmenu-opendown">
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href=" #">線上專人</a></li>
+                </ul></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="wrap-slider">
+            <div class="wrapper">
+                <div class="theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <img src="images/banner.jpg">
+                        <img src="images/html_css.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <ul>
+                <li><a href="images/HTML_resized .jpg" data-lightbox="prolan" data-title="Html5 基礎教學" /><img src="images/HTML.jpg"></a>
+                    <h2>Html5 基礎教學</h2><span>主流前端網站設計的基礎就在六腳學院，在這裡不在是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</span></li>
+                <li><a href="images/RWD_resized.jpg" data-lightbox="prolan" data-title="RWD 響應式網站" /><img src="images/RWD.jpg"></a>
+                    <h2>響應式網站</h2><span>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</span></li>
+                <li><a href="images/JQUERY_resized.jpg" data-lightbox="prolan" data-title="jQuery 實戰教學" /><img src="images/JQUERY.jpg"></a>
+                    <h2>jQuery實戰教學</h2><span>本課程有以下特色<br>‧ 了解變數的使用方法<br>‧ 學習並操作DOM <br>‧ 學習基本數學運算方法<br>‧ 套件的操作及運用</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="main">
+            <h2>線上及實體課程的差異</h2>
+            <table class="price">
+                <tr class="list">
+                    <th>項目</th>
+                    <th>Hex School 線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td class="fcolor">較低</td>
+                    <td class="fcolor">較低</td>
+                    <td>較低</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td class="fcolor">較低</td>
+                    <td class="fcolor">很好</td>
+                </tr>
+                <tr>
+                    <td>code review</td>
+                    <td class="fcolor">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td class="fcolor">普通</td>
+                    <td class="fcolor">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次複習</td>
+                    <td class="fcolor">可</td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td class="fcolor">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+        </div>
+        <div class="content">
+            <h2>對我們課程有興趣嗎?<br>歡迎留下您的資料</h2>
+            <form action="index.html" class="QA">
+                <textarea name="index.html" id="" cols="60" rows="10"></textarea>
+                <label for="person">姓名</label>
+                <input id="person" type="text" placeholder="王六角" name="person">
+                <label for="phone">電話</label>
+                <input id="phone" type="text" placeholder="0912345678" name="phone">
+                <label for="mail">信箱</label>
+                <input id="mail" type="text" placeholder="hexsxhool@mail.com">
+                <div class="button">
+                    <input type="button" value="確定" class="btn
+                ">
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <h2><a href="#">hexschool</a></h2>
+            <ul>
+                <li>聯絡我們:<span>hexschool@gmail.com</span></li>
+                <li>電話:<span>0999123456</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="up">
+        <a href="#"><img src="images/top-alignment.png"></a>
+    </div>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+  font-family: Microsoft JhengHei ;
+}
+.wrap{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header{
+    background: #f6f6f6 ;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.header ul{
+    float: right;
+    margin-right: 10px;
+}
+.header ul li{
+    float: left;
+    padding:5px;
+}
+.header ul li a:hover{
+    color: red
+}
+.header img{
+    vertical-align: bottom;
+}
+.fb{
+    text-decoration: none;
+    color: #4460a0;
+    border-right: 2px solid #cccccc;
+    padding-right: 5px;
+}
+.twitter{
+    text-decoration: none;
+    color: #00cc99;
+}
+.clearfix{
+    clear: both;
+}
+
+.top h1{
+    float: left;
+}
+.top h1 a {
+    
+    width: 174px;
+    height: 50px;
+    display: block;
+    background: url(../images/logo.png);
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dropmenu{
+   float: right;
+   margin-top: 10px;
+}
+
+
+.dropmenu a{
+    width: 120px;
+    display: block;
+    float: left;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    color: #42d3a9;
+}
+
+.dropmenu a:hover,.dropmenu a.active{
+    color: red;
+    border-bottom: 2px solid #00cc99;
+}
+
+
+.dropmenu li{
+    float: left;
+    position: relative;
+  }
+
+.dropmenu ul{
+    display:none; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 30;
+              
+}
+.wrapper{
+    margin-bottom: 10px;
+      position: relative;
+      z-index: 1;
+}
+.wrapper img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.cart img{
+    width: 100%;
+    padding: 10px;
+}
+
+.cart li{
+    float: left;
+    display: block;
+    margin: 0px 10px 30px 10px;
+  
+    width: 240px;
+    height: 370px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.cart h2{
+    font:bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.cart span{
+    display: block;
+    padding: 10px;
+    line-height: 1.5;
+}
+.cart span br {
+    line-height: 2;
+}
+.main{
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.main h2{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+table{
+    margin: 0 auto;
+}
+.list{
+    font: bold;
+    background:  #f7f7f7;
+}
+.price td,.price th{
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding: 10px;
+    text-align: left;
+}
+.fcolor{
+    color:#00cc99;
+}
+.content{
+    background:linear-gradient(#00654c,#009771);
+
+    margin-bottom: 10px;
+}
+.content h2{
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.QA{
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+textarea{
+    margin:0 20px 0 10px;
+    border-radius: 5px;
+    float: left;
+
+}
+label{
+    display: block;
+    color: white;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.button{
+    text-align: right;
+}
+.btn {
+    font-size: 16px;
+    background: #00cc99;
+    border-radius: 2px;
+    border: none;
+    padding: 0px 10px 0 10px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn:hover{
+    color:;
+    background:#4460a0;
+    cursor: pointer; 
+}
+.footer h2 {
+    display: block;
+    width: 174px;
+    height: 43px;
+    float: left;
+    background: url(../images/logo-grey.png);
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.footer ul{
+    float: right;
+}
+.footer ul li{
+    padding: 5px;
+}
+.footer span{
+    color:#e12d80;
+}
+.up{
+    position: fixed;
+    right: 15%;
+    bottom: 0;
+
+}
